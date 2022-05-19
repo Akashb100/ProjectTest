@@ -19,7 +19,7 @@ public class OrderDetails {
 		action.moveToElement(ele).perform();
 		driver.findElement(By.partialLinkText("Log In")).click();
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-	    driver.findElement(By.xpath("//div[@class=\"popup-text text-center vert large-6 columns\"]")).click();
+	        driver.findElement(By.xpath("//div[@class=\"popup-text text-center vert large-6 columns\"]")).click();
 		driver.findElement(By.xpath("//input[@class=\"email required input_authentication\"]")).sendKeys("akashbhalerao051@gmail.com");
 		driver.findElement(By.xpath("//input[@class=\"required input_authentication\"]")).sendKeys("Akash@12");
 		driver.findElement(By.xpath("//input[@class=\"button primary\"]")).click();
